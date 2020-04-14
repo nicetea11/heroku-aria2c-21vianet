@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install rclone static binary
-wget -q https://github.com/nicetea11/heroku-aria2c/releases/download/21rclone/rclone-v1.51.0-linux-amd64.zip
+wget -q https://github.com/Humetea/heroku-aria2c-21vianet/releases/download/21rclone/rclone-v1.51.0-linux-amd64.zip
 unzip -q rclone-v1.51.0-linux-amd64.zip
 chmod +x rclone-v1.51.0-linux-amd64/rclone
 export PATH=$PWD/rclone-v1.51.0-linux-amd64:$PATH
