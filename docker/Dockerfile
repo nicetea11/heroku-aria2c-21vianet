@@ -1,4 +1,4 @@
-FROM node:12-buster
+FROM debian
 
 WORKDIR /root
 
